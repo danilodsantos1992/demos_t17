@@ -7,3 +7,7 @@ button {
 fieldset {
     border: 20px black dashed;
 }
+
+input[type="text"] {
+    background-color: blue;
+}
