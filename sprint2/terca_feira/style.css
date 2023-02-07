@@ -1,0 +1,22 @@
+body {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.primeira {
+    background-color: blue;
+}
+
+.segunda {
+    background-color: red;
+}
+
+.linha {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+}
