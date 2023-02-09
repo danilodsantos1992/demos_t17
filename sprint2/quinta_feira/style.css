@@ -1,0 +1,53 @@
+body {
+    
+}
+
+.container {
+    display: flex;
+    justify-content: conter;
+    align-items: center;
+}
+
+.container .left {
+    background: linear-gradient(135deg, #7f279c 0%, #2e279d 100%);
+}
+
+.container .left form {
+
+}
+
+.container .left form .leftTitle {
+
+}
+
+.container .left form input {
+
+}
+
+.container .left form input[type="text"] {
+
+}
+
+.container .left form input[type="email"] {
+
+}
+
+.container .left form textarea {
+
+}
+
+.container .left form button {
+
+}
+
+.container .right {
+
+}
+
+.container .right figure {
+
+}
+
+.container .right img {
+
+}
