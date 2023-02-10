@@ -1,31 +1,56 @@
 body {
-    
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
 }
 
 .container {
+    box-shadow: 1px 0 .4em rgb(216, 216, 216);
     display: flex;
-    justify-content: conter;
+    justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 350px;
 }
 
 .container .left {
     background: linear-gradient(135deg, #7f279c 0%, #2e279d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
 }
 
 .container .left form {
-
+    width: 200px;
 }
 
 .container .left form .leftTitle {
-
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
 }
 
 .container .left form input {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    outline: none;
+    margin: 10px 0px;
+    width: 185px;
+    padding-bottom: 7px;
+}
 
+.container .left form input::placeholder {
+    color: rgb(185, 185, 185);
+    font-size: 10px;
 }
 
 .container .left form input[type="text"] {
-
+    
 }
 
 .container .left form input[type="email"] {
@@ -33,15 +58,41 @@ body {
 }
 
 .container .left form textarea {
-
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.container .left form button {
+.container .left form textarea::placeholder {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 10px;
+    color: rgb(185, 185, 185);
+}   
 
+.container .left form button {
+    background-color: #d62196;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 9px;
+    padding: 9px;
+    display: block;
+    margin-top: 8px;
+}
+
+.container .left form button:hover {
+    cursor: pointer;
+    background-color: #a71d76;
+    transition: 0.5s;
 }
 
 .container .right {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
 }
 
 .container .right figure {
@@ -49,5 +100,5 @@ body {
 }
 
 .container .right img {
-
+    border-radius: 50%;
 }
