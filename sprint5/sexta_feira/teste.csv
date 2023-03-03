@@ -1,0 +1,8 @@
+i;array[i];" i<array.length";array[i] == str
+0;'Pedro';true;false
+1;'Eduardo';true;false
+2;'Gabriel';true;true
+;;;
+;;;
+;;;
+;;;
